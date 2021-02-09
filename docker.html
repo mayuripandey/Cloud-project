@@ -1,0 +1,25 @@
+#!/usr/bin/python2
+import newdocker
+
+
+print "<form action="scripts/docker.py">"
+print "<h2> Use docker as a PAAS </h2>"
+print "Run your commands!!- <br/>"
+print "Below are some os <br/><br/>"
+newdocker.images()
+print "</form>"
+print "<br/>"
+
+
+print "<h2> Use docker as a CAAS </h2>"
+print "Configure your container: <br/><br/>"
+print "<form action="scripts/caasdocker.py">"
+print "Enter no of service<input type="text" name="nos"/><br/>"
+print "Enter no of containers: <input type="text" name="noc" /><br/>"
+print "IP address of the system<input type="text" name="ipaddress"/><br/>"
+newdocker.images()
+print "Create a tar  file out of it<input type="checkbox" name="tar"/><br/> <br/>"
+print "<input type="submit" value="Submit"/>"
+print "</form>"
+
+

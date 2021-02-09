@@ -1,0 +1,9 @@
+---
+- hosts: nik
+  tasks: 
+   - mount:
+      path: /dev/myvg/mukul
+      src: /media/niket
+      fstype: ext4
+      state: present
+

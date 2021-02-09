@@ -1,0 +1,9 @@
+---
+- hosts: all
+  tasks: 
+   - package:
+      name: "iscsi-initiator-utils"
+      state: present
+      use: yum
+      
+
