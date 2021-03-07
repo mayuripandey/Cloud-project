@@ -1,1 +1,1 @@
-Created sevices on cloud with various functionalities
+Created sevices on cloud with various functionalities.
